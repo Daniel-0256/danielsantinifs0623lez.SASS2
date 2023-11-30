@@ -1,0 +1,26 @@
+@import "color";
+@import "bottoni";
+@import "spaziature";
+@import "mixin";
+@import "bootstrap/bootstrap.scss";
+
+#divHeader {
+    background-color: rgb(125, 25, 232);
+    h1 {
+        color: $colorfont;
+        padding: 10px;
+    }
+    p {
+        color: $colorfont;
+        padding: 10px;
+        font-size: 12px;
+    }
+    #bottone1 {
+        background-color: green;
+        @include spazi1;
+        color: white;
+    }
+    #bottone2 {
+        @include spazi1;
+    }
+}
